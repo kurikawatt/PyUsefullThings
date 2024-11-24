@@ -21,3 +21,6 @@ class Stack:
     def pop(self) -> Any:
         self.__size -= 1
         return self.__content.pop()
+
+    def seek(self) -> Any:
+        return self.__content[-1]

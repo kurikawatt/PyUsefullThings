@@ -21,3 +21,6 @@ class Queue:
     def pop(self) -> Any:
         self.__size -= 1
         return self.__content.pop(0)
+
+    def seek(self) -> Any:
+        return self.__content[0]
